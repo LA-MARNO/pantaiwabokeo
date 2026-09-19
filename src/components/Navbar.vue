@@ -39,7 +39,7 @@
         <!-- CTA Button (Desktop) -->
         <div class="hidden md:flex items-center space-x-4">
           <router-link 
-            to="/wisata" 
+            to="/admin" 
             class="px-4 py-2 rounded-full text-sm font-semibold bg-[#F5E6C8] text-[#0284C7] hover:bg-[#06B6D4] hover:text-[#FFFFFF] transition-all duration-300 shadow-sm hover:shadow-md transform hover:-translate-y-0.5"
           >
             Jelajahi Sekarang
@@ -129,7 +129,8 @@ export default {
         { name: 'Tentang', href: '/tentang' },
         { name: 'Wisata & Fasilitas', href: '/wisata' },
         { name: 'Galeri', href: '/galeri' },
-        { name: 'Kontak', href: '/kontak' }
+        { name: 'Kontak', href: '/kontak' },
+        { name: 'Admin', href: '/admin' }
       ]
     }
   },
