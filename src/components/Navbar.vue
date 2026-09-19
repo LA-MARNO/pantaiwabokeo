@@ -129,8 +129,7 @@ export default {
         { name: 'Tentang', href: '/tentang' },
         { name: 'Wisata & Fasilitas', href: '/wisata' },
         { name: 'Galeri', href: '/galeri' },
-        { name: 'Kontak', href: '/kontak' },
-        { name: 'Admin', href: '/admin' }
+        { name: 'Kontak', href: '/kontak' }
       ]
     }
   },
